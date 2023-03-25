@@ -40,7 +40,7 @@ def upsample(df):
     
     return pd.concat([majority_df, upsampled_minority_df])
 
-YU_DATA_PATH = '../reference/counter_context/data'
+YU_DATA_PATH = '../data/counter_context/data'
 
 def data_preprocess(data_set, file_name, 
                     upsampling=False, 
